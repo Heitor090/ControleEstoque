@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir Usuário</title>
+    <link rel="stylesheet" href="../../css/global.css">
+    <script src="../../js/config.js"></script>
+    <script src="../../js/auth.js" defer></script>
+    <script src="../../js/login.js" defer></script>
+    <script src="../../js/usuarios/excluir.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Controle de Estoque</h1>
+        <div>
+            <nav>
+                <a href="../../index.html">Home</a>
+                <a href="../produtos/index.html">Produtos</a>
+                <a href="../fornecedores/index.html">Fornecedores</a>
+                <a href="../formaspagamento/index.html">Formas de Pagamento</a>
+                <a href="../contasreceber/index.html">Contas a Receber</a>
+                <a href="../pedidos/index.html">Pedidos</a>
+                <a href="../usuarios/index.html">Usuários</a>
+            </nav>
+            <button onclick="logout()">Sair</button>
+        </div>
+    </header>
+
+    <main>
+        <h2>Confirmar Exclusão</h2>
+        <p>Você tem certeza que deseja excluir o usuário abaixo?</p>
+        
+        <div id="dados-usuario"></div>
+
+        <br>
+        <button id="btn-excluir">Sim, Excluir</button>
+        <a href="index.html">Cancelar</a>
+    </main>
+</body>
+</html>

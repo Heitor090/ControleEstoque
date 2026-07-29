@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas de Pagamento - Controle de Estoque</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Controle de Estoque</h1>
+        <nav id="nav-principal"></nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="header-container">
+                <h2>Formas de Pagamento</h2>
+                <a href="form.html" class="btn">Nova Forma de Pagamento</a>
+            </div>
+            <div id="feedback-message" class="feedback" style="display: none;"></div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Status</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-formas-pagamento"></tbody>
+            </table>
+        </div>
+    </main>
+    <script src="../../js/config.js"></script>
+    <script src="../../js/auth.js"></script>
+    <script src="../../js/formaspagamento/list.js"></script>
+</body>
+
+</html>
